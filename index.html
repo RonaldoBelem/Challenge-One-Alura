@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="logo-alura.png" alt="Logo da Alura" class="logo" />
+      <div class="contato">
+        <a href="https://www.linkedin.com/in/ronaldo-nunes-belem/"
+          ><img src="linkedin-logo.png" alt="Logo do LinkedIn" class="linkedin"
+        /></a>
+        <a href="https://github.com/RonaldoBelem"
+          ><img src="github-logo.png" alt="Logo do GitHub" class="github"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <div class="criptografia">
+        <textarea
+          wrap="hard"
+          id="input"
+          placeholder="Digite seu texto..."
+          class="texto"
+        ></textarea>
+        <p id="aviso">
+          <img src="exclamacao.png" alt="Ponto de exclamação" />Apenas letras
+          minúsculas e sem acento!
+        </p>
+        <div class="btn-criptografia">
+          <button id="codificador" class="btn">Codificar</button>
+          <button id="decodificador" class="btn">Decodificar</button>
+        </div>
+      </div>
+      <div class="resultado">
+        <textarea
+          wrap="hard"
+          id="output"
+          readonly
+          placeholder="O texto codificado ou decodificado aparecerá aqui!"
+          class="texto-resultado"
+        ></textarea>
+        <button id="copiar" class="btn">Copiar</button>
+        <button class="btn" id="limpar">Limpar campos</button>
+      </div>
+    </main>
+    <footer>
+      <p>Desenvolvido por Ronaldo Nunes Belém &copy 2024</p>
+      <p>Challenge Programa ONE e Alura</p>
+    </footer>
+    <script type="text/javascript" src="script.js" defer></script>
+  </body>
+</html>
