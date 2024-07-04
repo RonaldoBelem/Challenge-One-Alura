@@ -48,7 +48,7 @@ Caso queira fazer modificações no site, siga estes passos:
 Clone o projeto
 
 ```bash
-  git clone https://github.com/RonaldoBelem
+  git clone https://github.com/RonaldoBelem/Challenge-One-Alura.git
 ```
 
 Entre no diretório do projeto
